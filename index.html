@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <title>EraseMe</title>
+</head>
+<body>
+   
+    
+            <div id="scratch"></div>
+
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>    
+<script type="text/javascript" src="./wScratchPad.min.js"></script>
+
+<script>
+$('#scratch').wScratchPad({
+    size        : 90,          // The size of the brush/scratch.
+    bg          : 'icebear.jpg',  // Background (image path or hex color).
+    fg          : '#000' // Foreground (image path or hex color).
+    
+  });
+</script>
+
+</body>
+</html>
